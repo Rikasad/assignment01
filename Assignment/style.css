@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap');
+*{font-family:'Merriweather', serif;}
+
+
+.head h6{
+    color: #FFF;
+   font-size: 32px;
+   font-weight: 100;
+   padding-top: 100px;
+}
+.head h1{
+    color: #FFF;
+font-size: 62px;
+font-weight: 900;
+ /* 131.944% */
+
+}
+.head{
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('/resources/Banner\ Image.png');
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 600px;
+    border-radius: 16px;
+    text-align: center;
+    padding: 10px;
+    background-image: cover;
+    background-position: center;
+    margin-left: 150px;
+}
+.allcatagories{
+    background: #fff;
+    width: 1600px;
+    height: 765px;
+    margin: 10px 20px 60px 20px;
+    text-align: center;
+    flex-shrink: 0;
+    padding-bottom: 40px;
+}
+.allcatagories h1{
+    color: #F00;
+text-align: center;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-bottom: 5px;
+}
+.allcatagories p{
+    color: #F00;
+}
+.allcatagories h3{
+    color: #070211;
+
+text-align: center;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.party{
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
+    background-repeat: no-repeat;
+
+    padding-left: 126px;
+    padding-top: 126px;
+    width: 1200px;
+    height: 450px;
+    margin-left: 150px;
+    border-radius: 16px; 
+    margin-bottom: 60px;
+}
+.party h2{
+    color: #FFF;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 77px; /* 137.5% */
+    letter-spacing: 7.04px; 
+    padding-bottom: 0;
+}
+.party p{
+color: rgba(255, 255, 255, 0.80);
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+padding-top: 0;
+}
+.btn{
+    display: inline-block;
+    background: #F00;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.info{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 1320px;
+    height: 182px;
+    text-align: center;
+    margin-left: 150px;
+}
+.info p{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 175% */
+    text-transform: capitalize;
+}
+.primary{
+    color:#F00;
+}
+.bonus{
+    background-color: #FFF;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 250px;
+}
+.bestoffer{
+   padding-right: 20px; 
+}
+.bestoffer p{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+}
+.circle{
+    margin: 10px;
+    border:solid 10px #F00 ;
+    border-radius: 463px;
+    padding: 15px;
+}
+.extra{
+    margin-left: 50px;
+}
+.extra p{
+    color: rgba(7, 2, 17, 0.60);
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.sale{
+    text-align: center;
+    padding-left: 126px;
+    padding-top: 126px;
+    width: 1200px;
+    height: 450px;
+    margin-left: 150px;
+}
+.sale p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.sale h1{
+    text-align: center;
+font-size: 72px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+}
+.crazy{
+    width: 1600px;
+    height: 765px; 
+    padding: 60px;
+    margin-bottom: 50px;
+}
+.portfolio{
+    width: 1600px;
+    height: 765px;
+    margin-left: 150px;
+}
+.portfolio p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+.catagories{
+    padding-left: 126px;
+    width: 1200px;
+    height: 450px;
+    margin-left: 150px 10px 10px;
+    display: flex;
+    padding-top: 0;
+    padding: 10px 10px;
+}
+.space{
+    padding: 10px;
+}
+.subscribe{
+    width: 1600px;
+    height: 765px;
+    margin-left: 150px;
+    margin-top: 400px;
+    text-align: center;
+    background: rgba(255, 0, 0, 0.05);
+
+}
+.subscribe p{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+#input{
+    padding: 10px 0;
+    border-radius: 50px;
+    border: solid .1px #F00;
+}
+
+
