@@ -274,14 +274,26 @@ padding-top: 80px;
 }
 
 .p{
-    align-items: center;
     position: relative;
+
 }
 .phone{
-    display: flex;
-    padding-right: 300px;   
+   
+    padding-right: 300px;     
 }
- 
+.row-1{
+    position: absolute;
+    top: 33px;
+    left: 255px;
+}
+.row2{
+    position: absolute;
+    top: 95px;
+    left: 255px;
+
+}
+
+
 .frame{
     position: absolute;
     width: 24px;
