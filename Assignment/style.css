@@ -16,7 +16,7 @@ font-weight: 900;
 
 }
 .head{
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('/resources/Banner\ Image.png');
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../imagepath/resources/Banner\ Image.png');
     background-repeat: no-repeat;
     width: 1300px;
     height: 600px;
@@ -58,7 +58,7 @@ font-weight: 700;
 line-height: normal;
 }
 .party{
-    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("/resources/Vectorrr.png");
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../imagepath/resources/Vectorrr.png");
     background-repeat: no-repeat;
 
     padding-left: 126px;
@@ -68,23 +68,29 @@ line-height: normal;
     margin-left: 150px;
     border-radius: 16px; 
     margin-bottom: 60px;
+    display: flex;
+    
+}
+.another{
+   padding-left: 250px;
 }
 .party h2{
     color: #FFF;
     font-size: 54px;
-    font-style: normal;
     font-weight: 900;
-    line-height: 77px; /* 137.5% */
+    line-height: 57px; /* 137.5% */
     letter-spacing: 7.04px; 
     padding-bottom: 0;
+    padding: 0;
 }
 .party p{
 color: rgba(255, 255, 255, 0.80);
-font-size: 18px;
+font-size: 15px;
 font-style: normal;
 font-weight: 400;
-line-height: 30px;
-padding-top: 0;
+line-height: 15px;
+padding-top: 0px;
+;
 }
 .btn{
     display: inline-block;
