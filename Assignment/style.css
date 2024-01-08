@@ -230,5 +230,62 @@ line-height: normal;
     border-radius: 50px;
     border: solid .1px #F00;
 }
+.ftr{
+    background: #070211;
+    width: 1900px;
+    height: 609px;  
+}
+.address{
+    color: #FFF;
+font-size: 24px;
+font-weight: 500;
+line-height: 40px;
+display: flex;
+justify-content: space-between;
+padding-top: 80px;
+}
+.address p{
+    padding-left: 300px;
+}
+.phone{
+    padding-right: 300px;
+    line-height: 10px;
+    display: flex;   
+}
+.web{
+    padding-right: 300px;
+    line-height: 10px;
+    display: flex;
+
+}
+hr{
+    width: 1320px;
+    height: 0.1px;
+    background: solid  rgba(255, 255, 255, 0.15);   
+}
+.media{
+   padding-inline: 30px;
+    text-align: center;
+}
+.copyright{
+padding-left: 300px;
+padding-right: 300px;
+display: flex;
+    color: #FFF;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+justify-content: space-between;
+
+}
+.phone{
+    display: flex;
+}
+.web{
+    display: flex;
+}
+
+
 
 
