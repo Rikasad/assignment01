@@ -16,7 +16,7 @@ font-weight: 900;
 
 }
 .head{
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../imagepath/resources/Banner\ Image.png');
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),url('../resources/Banner\ Image.png');
     background-repeat: no-repeat;
     width: 1300px;
     height: 600px;
@@ -58,7 +58,7 @@ font-weight: 700;
 line-height: normal;
 }
 .party{
-    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../imagepath/resources/Vectorrr.png");
+    background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("../resources/Vectorrr.png");
     background-repeat: no-repeat;
 
     padding-left: 126px;
