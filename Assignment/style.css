@@ -162,7 +162,7 @@ line-height: 32px;
     padding-left: 126px;
     padding-top: 126px;
     width: 1200px;
-    height: 450px;
+    height: 500px;
     margin-left: 150px;
 }
 .sale p{
@@ -179,17 +179,29 @@ font-style: normal;
 font-weight: 900;
 line-height: normal;
 }
-.crazy{
 
+.crazy1{
     position: absolute;
-    padding-left: -126px;
-    padding-top: 126px;
-    width: 1300px;
-    height: 450px;
-    margin-left: -150px;   
+    top: 3800px;
+    left: 100px;
+}
+.crazy4{
+    position: absolute;
+    top: 4150px;
+    left: 95px;
+    z-index: -1;
+}
+    
+.crazy3{
+    position: absolute;
+    left: 965px;
+    top: 3750px;
+    z-index: -1;
 }
 .crazy2{
-    padding-bottom: -10px;
+    position: absolute;
+    left: 800px;
+    top: 3750px
 }
 .portfolio{
     width: 1600px;
@@ -205,6 +217,7 @@ line-height: normal;
     line-height: 32px;
 }
 .catagories{
+    justify-content: space-around;
     padding-left: 126px;
     width: 1200px;
     height: 450px;
@@ -212,17 +225,22 @@ line-height: normal;
     display: flex;
     padding-top: 0;
     padding: 10px 10px;
+    margin-bottom: 20px;   
+}
+.catagories, .col-1,.col-2,.col-3,.col-4,.col-5,.col-6{
+    padding-left: 10px;
 }
 .space{
     padding: 10px;
 }
 .subscribe{
-    width: 1600px;
+    width: 1269px;
     height: 765px;
     margin-left: 150px;
-    margin-top: 400px;
+    margin-top: 450px;
     text-align: center;
     background: rgba(255, 0, 0, 0.05);
+    border-radius: 16px;
 
 }
 .subscribe p{
@@ -254,25 +272,40 @@ padding-top: 80px;
 .address p{
     padding-left: 300px;
 }
-.phone{
-    padding-right: 300px;
-    line-height: 10px;
-    display: flex;   
+
+.p{
+    align-items: center;
+    position: relative;
 }
+.phone{
+    display: flex;
+    padding-right: 300px;   
+}
+ 
+.frame{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    
+}
+/*
 .web{
     padding-right: 300px;
     line-height: 10px;
     display: flex;
-
 }
+*/
 hr{
     width: 1320px;
     height: 0.1px;
     background: solid  rgba(255, 255, 255, 0.15);   
 }
 .media{
-   padding-inline: 30px;
-    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 700px;
+    padding-right: 800px;
+    
 }
 .copyright{
 padding-left: 300px;
@@ -286,13 +319,3 @@ line-height: normal;
 justify-content: space-between;
 
 }
-.phone{
-    display: flex;
-}
-.web{
-    display: flex;
-}
-
-
-
-
